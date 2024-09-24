@@ -4,14 +4,16 @@
 }
 
 body {
-  border: 4px solid black;
   font-family: sans-serif;
+  line-height: 1.4;
 }
 
 h2 {
   text-transform: uppercase;
   text-align: center;
   background-color: rgb(215, 212, 212);
+  font-size: 22px;
+  padding: 15px;
 }
 
 h4 {
@@ -27,10 +29,17 @@ h4 {
   text-transform: uppercase;
   font-weight: bold;
   color: #777;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 .details-list {
   list-style-type: square;
+  margin-left: 20px;
+}
+
+.details-list li {
+  margin-bottom: 10px;
 }
 
 .more-info:link,
@@ -53,6 +62,9 @@ h4 {
   text-transform: uppercase;
   border: none;
   cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
 }
 
 .button:hover {
@@ -62,4 +74,6 @@ h4 {
 
 .container {
   width: 825px;
+  border: 4px solid black;
+  margin: 50px auto;
 }

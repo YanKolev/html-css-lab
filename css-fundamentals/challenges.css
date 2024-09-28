@@ -14,6 +14,20 @@ h2 {
   background-color: rgb(215, 212, 212);
   font-size: 22px;
   padding: 15px;
+  position: relative;
+}
+
+h2::before {
+  content: "SALE";
+  letter-spacing: 2px;
+  background-color: red;
+  color: white;
+  font-size: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -20px;
+  left: -50px;
 }
 
 h4 {
@@ -76,4 +90,27 @@ h4 {
   width: 825px;
   border: 4px solid black;
   margin: 50px auto;
+}
+
+.color {
+  background-color: black;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+}
+
+.color-blue {
+  background-color: blue;
+}
+.color-red {
+  background-color: red;
+}
+.color-yellow {
+  background-color: yellow;
+}
+.color-green {
+  background-color: green;
+}
+.color-brown {
+  background-color: brown;
 }

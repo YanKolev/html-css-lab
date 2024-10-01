@@ -1,54 +1,159 @@
-<section id="intro">
-  <p class="name">Hi, my name is <span> Yanko Kolev.</span></p>
-  <h2>I develop the front end of websites.</h2>
-  <p>I'm an developer specializing in front end technologies.</p>
-  <p>
-    Currently I'm making a carrer switch from Work-Force Management into Web
-    Development.
-  </p>
-</section>
-<!-- We usethe section element here as this will be part of something bigger. 
- We could use the article element, but the behaviour will be different
- ID is used here as 
- ultimately we can make a link to this  particular part of the page => USE OF ID INSTEAD OF CLASS
-  (Link within the page)
-  We use span we do not want break the sentence of introduction into multiple nested headings-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <body>
+      <nav>
+        <ul>
+          <li>
+            <h1>
+              <a href="index.html"
+                ><span class="fas fa-code" aria-hidden="true"></span> Yanko
+                Kolev</a
+              >
+            </h1>
+          </li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li>
+            <a href="https://www.linkedin.com" target="_blank">
+              <span class="fab fa-linkedin" aria-hidden="true"></span>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/YanKolev" target="_blank">
+              <span class="fab fa-github-square" aria-hidden="true"></span>
+              <span class="sr-only">Github</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.dropbox.com" target="_blank" class="button"
+              >Resume</a
+            >
+          </li>
+        </ul>
+      </nav>
 
-<section id="contact">
-  <h2>Contact me</h2>
-  <p>
-    I'm always interested in hearing about<span
-      >new development opportunities, new</span
-    >
-    <span>design experiences or just to say "Hi!"</span>
-  </p>
+      <section id="intro">
+        <p class="name">Hi, my name is <span>Yanko Kolev.</span></p>
+        <h2>I'm a webdeveloper.</h2>
+        <p>
+          I specialize in HTML, CSS, user experience, and no-code technologies.
+        </p>
+        <p>
+          Currently, I'm looking for my next opportunity in the software world.
+        </p>
+      </section>
+
+      <section id="contact">
+        <h2>Contact me</h2>
+        <p>
+          I'm always interested in hearing about new teaching opportunities, or
+          exciting collaborations.
+        </p>
+        <p><a href="mailto:example@example.com">Email me</a></p>
+      </section>
+
+      <footer>
+        <h2>Yanko Kolev &middot; Developer</h2>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/" target="_blank">
+              <span class="fab fa-linkedin" aria-hidden="true"></span>
+              <span class="sr-only">LinkedIn</span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/YanKolev" target="_blank">
+              <span class="fab fa-github-square" aria-hidden="true"></span>
+              <span class="sr-only">Github</span>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:example@example.com">
+              <span class="fas fa-envelope" aria-hidden="true"></span>
+              <span class="sr-only">Email</span>
+            </a>
+          </li>
+        </ul>
+        <p><small>&copy; 2024 Yanko Kolev. All rights reserved.</small></p>
+      </footer>
+    </body>
+
+    <!--
+  <nav>
   
-  <button>Email me</button>
-  <p><a href="mailto:example@example.com">Email me</p>
-</section>
+    <ul>
+      <li><h1><a href="index.html"><span class="fa-solid fa-laptop-code" aria-hidden="true"></span> <span>Yanko Kolev</span></a></h1></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#"><span class="fa-brands fa-linkedin" aria-hidden="true"></span>  <span class="sr-only">LinkedIn</span></a></li>
+      <li><a href="#"><span class="fa-brands fa-square-github" aria-hidden="true"></span><span class="sr-only"></>Github</span></a></li>
+      <li><a href="#" class="button">Resume</a></li>
+    </ul>
+  </nav>
 
-<nav>
+  <section id="intro">
+    <p class="name">Hi, my name is <span> Yanko Kolev.</span></p>
+    <h2>I'm a webdeveloper.</h2>
+    <p>Specializing in front end technologies.</p>
+    <p>
+      Currently I'm making a carrer switch from Work-Force Management into Web
+      Development.
+    </p>
+  </section>
+  <!-- We usethe section element here as this will be part of something bigger. 
+   We could use the article element, but the behaviour will be different
+   ID is used here as 
+   ultimately we can make a link to this  particular part of the page => USE OF ID INSTEAD OF CLASS
+    (Link within the page)
+    We use span we do not want break the sentence of introduction into multiple nested headings-->
+    <!--
+  <section id="contact">
+    <h2>Contact me</h2>
+    <p>
+      I'm always interested in hearing about<span
+        >new development opportunities, new</span
+      >
+      <span>design experiences or just to say "Hi!"</span>
+    </p>
+    
+    
+    <p><a href="mailto:example@example.com">Email me</p>
+  </section>
   
-  <ul>
-    <li><h1><a href="index.html"><span class="fa-solid fa-laptop-code" aria-hidden="true"></span> <span>Yanko Kolev</span></a></h1></li> /* Heading is allowed to be inside a list item*/
-    <li><a href="#">Projects</a></li>
-    <li><a href="#">About</a></li>
-    <li><a href="#">Contact</a></li>
-    <li><a href="#"><span class="fa-brands fa-linkedin" aria-hidden="true"></span>  <span class="sr-only">LinkedIn</span></a></li>/*LinkedIn link*/
-    <li><a href="#"><span class="fa-brands fa-square-github" aria-hidden="true"></span><span class="sr-only"></>Github</span></a></li> /*Linked to Github*/
-    <li><a href="#" class="button">Resume</a></li> /* Resume can be linked to dropbox> pdf*/
-  </ul>
-</nav>
-
-
-<footer>
- <h2>Yanko Kolev &imddot: Web Developer</h2>
- <ul>
-  <li><a href="#"><span class="fa-brands fa-linkedin" aria-hidden="true"></span><span class="sr-only">LinkedIn</span></a></li>
-  <li><a href="#"><span class="fa-brands fa-square-github" aria-hidden="true"></span><span class="sr-only"></span><span>Github</span></a></li>
-  <li><a href="mailto:example@example.com"> <span class="fa-solid fa-envelope" aria-hidden="true"><span class="sr-only">Email</span></a></li>
- </ul>
-
-<p><small>&copy;  2024 Yanko Kolev. All rights reserved</small></p>
-
-</footer>
+  
+  
+  
+  <footer>
+   <h2>Yanko Kolev &middot; Web Developer</h2>
+   <ul>
+    <li><a href="#"><span class="fa-brands fa-linkedin" aria-hidden="true"></span><span class="sr-only">LinkedIn</span></a></li>
+    <li><a href="#"><span class="fa-brands fa-square-github" aria-hidden="true"></span><span class="sr-only"></span><span>Github</span></a></li>
+    <li><a href="mailto:example@example.com"> <span class="fa-solid fa-envelope" aria-hidden="true"><span class="sr-only">Email</span></a></li>
+   </ul>
+  
+  <p><small>&copy;  2024 Yanko Kolev. All rights reserved</small></p>
+  
+  </footer>
+-->
+  </body>
+</html>

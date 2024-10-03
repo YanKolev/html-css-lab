@@ -32,3 +32,13 @@ Element is removed from the normal flow- out of flow
 No impact on surrounding elements, might overlap them
 We use top, bottom, left or right to offset the element from its relatively positioned container
 position:absolute
+
+Layouts:
+
+Intro into floats and float layout.
+Floats
+Element s removed from normal flow: "out of flow"
+Text and inlne elements will wrap around the floated element
+The container element will NOT adjust its height to the element (leading to Collapsing heights)
+
+Clearing floats- the easiest way it will be to add an additional element to the element and clear it from there.

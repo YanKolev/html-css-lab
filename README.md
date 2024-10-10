@@ -74,3 +74,47 @@ Terminology:
 4- flex-basis ->To define item's width, instead of the width property
 5- flex ->Recommended shorthand for flex-grow-shring-basis
 6- order ->Controls order of items: -1 makes item first, 1 makes item last
+
+CSS GRID
+
+Css Grid is a set of CSS properties for building 2-dimensional layouts.
+
+Main idea behind IT is that we can divide a container element into rows and columns that can be filled with its child elements.
+
+In-two-dimensional contexts, CSS GRID allow us to write less lested HTML and easier-to-read CSS
+
+CSS
+CSS Grid is not meant to replace flexbox! Instead, they work perfectly together. Need 1D layout? Use flexbox. Need 2D layout? Use CSS GRID.
+ITs not a replacement for flexbox, but they work togetther rather nicely.
+
+Differences between the properties- Grid Container vs Grid Items
+
+Grid Container:
+
+1-grid-template-rows: <track size>
+grid-template-columns: <track size>
+We use them to establish the grid row and column tracks. One length unit for each track. Any unit can be used, new fr fills unused space.
+
+2-row-gap:0 <length>
+column-gap:0<length>
+gap: 0<length>
+Use it to create empty space between tracks
+
+3-justify-items:stretch/start/center/end
+align-items:stretch/start/center/end
+To align items inside rows, columns (horizontally/vertically)
+
+4-justify-content:start/start/center/end
+align-content:start/start/center/end
+To align entire grid inside grid container. Only applies if container is larger than the grid.
+
+Grid Items:
+
+1-grid-column: <start line> / <end line> | span <number>
+grid-row: <start line> / <end line> | span <number>
+To place a grid item into a speciffic cell, based on line numbers.
+Span keyword can be used to span an item across more cells.
+
+2-justify-self:stretch/start/center/end
+align-self: stretch/start/center/end
+To overwrite justify-items/align-items for single items

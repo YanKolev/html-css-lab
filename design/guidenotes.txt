@@ -129,3 +129,56 @@ Dont make text too light! Use a tool to check contrast between text and backgrou
  -Contrast ratio needs to be at least 4.5:1 for normal text and 3:1 for large text(18px+)
 
 
+Images
+
+Different types of images: product photos, storytelling photos, illustartions, patterns
+
+Use images to support your website's message and story. Use relevant images! 
+
+Prefer original images. If not possible, use-original looking stock images(not generic ones!)
+
+Free images- Unsplash 
+
+Try to show real peole to trigger user's emotions
+
+If necessary, crop images to fit your message.
+
+Experiment combining photos, illustartions and patterns
+
+Handling text on images: 
+  Method 1: Darker or brighten image (completely or partially, using a gradient)
+  Method 2: Position text into neutral image area
+  Method 3: Put text in a box(especially if you add opacity of the box)
+
+Need to account for high-res screens, make image dimensions 2x as big as their displayed size(2x times scale factor)
+
+Compress image for a lower file size and better performance- tool-> Squoosh to reduce size of images
+
+When using multiple images side-by-side, make sure they have EXACT SAME DIMENSIONS.
+
+Icons: 
+
+Use a good icon pack, there are tons of free and paid icons packs:
+  Phosphor icons, ionicons,icons8
+
+Use only ONE icon pack. Dont mix icons from different icon packs
+
+Use SVG icons or Icon fonts. Dont use bitap formats(jpg and png)
+  -BITAP images- JPG, PNG, GIF- Do not scale and become unsharp
+  -Vecror-based images- SVG images and icon fonts-> Scale indefinetely
+
+Icons needs to adjust to your website's personality- Roundness, weight and filled/outlined depend on typography
+
+Use icons to provide visiual asistance to text
+
+Use icons for product feature blocks
+
+Use icons associated with actions, and label them (unless no space or icon is 100% clear)
+
+Use icon as bullet points.
+
+To keep icons neutral, use the same color as text, To draw more attention, use different color
+
+Don't confuse your users: icons need to make sense and fit the text or action.
+
+Don't make icons larger than what they were designed for. If needed, enclose them in a shape.

@@ -182,3 +182,88 @@ To keep icons neutral, use the same color as text, To draw more attention, use d
 Don't confuse your users: icons need to make sense and fit the text or action.
 
 Don't make icons larger than what they were designed for. If needed, enclose them in a shape.
+
+
+Shadows
+
+Shadows creates depth(3d)- the more the shadow the further away from the interface the element is.
+Shadows can be used on boxes and on text.
+
+You dont have to use shadows! only use them if it makes sense for the website personality.
+( Serious/Elegant(less shadows) -------> Playful/Fun(More shadows)) 
+
+Use shadows in small doses: don't add shadows to every element.
+
+Go light on shadows, dont make them too dark.
+
+Use small shadows for smaller elements that should stand out(to draw attention)
+
+Use medium-sized shadows for larger areas that should stand out a bit more.
+(cards that stand out in the interface)
+
+Use large shadows for elements taht should realy float above the interface(nacigations->popup)
+
+Experiment with changing shadows on mouse interaction (click and hover)
+
+Can experiment with glows(colored shadows).
+
+
+
+Border-radius
+
+Border-radius is used to increase the playfulness and fun of the design, to make it less Serious
+
+Typefaces have a certain roundness, make sure that the border-radius matches that roundness.
+
+Use border-radius on buttons, images, around icons, standout sections and other elements.
+
+
+
+Whitespace: 
+
+Its the space between elements. The right amount makes design look clean, modern and polished.
+Whitespace communicates how different pieces of information are related to one another.
+It implies invisible relationships between the elements of a layout. 
+
+Tips for whitespace:
+Use tons of whitespace between sections.
+Use a lot of whitespace between groups of elements.
+Use whitespace between elements.
+Inside group of elements, try to use whitespace instead of lines
+
+The more some elements (or group of elements) belond together, the closer they should be! 
+(The law of proximity)
+
+
+Start with a lot of whitespace, maybe even too much. Then remove whitespace from there.
+
+Try to match other design chices, If you have big text or big icons, you need more whitespace. 
+
+Try a hard rule, such as using multiples of 16px for all spacing (same idea as limiting font choices)
+
+
+
+Visiual Hierarchy: 
+-is all about establishing which elements of a design are the most important ones. 
+-is about drawing attention to these most important elements.
+-defining a path for users to gte them through the page
+-we can use a combination of position, size, colors, spacing, borders and shadows to estabish a meaningfu visual 
+  hierarchy between elements/componenets.
+
+
+Visual Hierarchy Fundamentals: 
+1- Position important elements closer to the top of the page, where they get more attention.
+2- Use images mindfully, as the draw a lot of attention (larger images get more attention)
+3- Whitespace creates separation, so use whitespace strategically to emphasize elements.
+
+Visiual Hierarchy for text elements
+1- For elements use font-size, font weight, color and whitespace to convey importance.
+2- Elements to emphasize? - Titles, sub-titles, links, buttons, data points, icons
+  De-emphasize-> less important text, like labels or secondary/additional information
+
+Visual hierarchy between componenets:
+1-emphasize an important component using background color, shadow or border(or multiple)
+2- Try emphasizing some component A over componennt B by de-emphasizing component B.
+3- What types of components to emphasize? 
+  -Testimonials, call-to-action sections, highlight sections, preview cards, forms, pricing tables, important rows/columns in tables.
+  

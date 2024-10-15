@@ -266,4 +266,48 @@ Visual hierarchy between componenets:
 2- Try emphasizing some component A over componennt B by de-emphasizing component B.
 3- What types of components to emphasize? 
   -Testimonials, call-to-action sections, highlight sections, preview cards, forms, pricing tables, important rows/columns in tables.
-  
+
+
+USER EXPERIENCE (UX)
+
+"Design is not just hat it looks like and feels like. Design is how it works"- Steve Jobs
+
+UI- User interface is the visual presenation of a product. ITs how the graphical interface looks and feels like.
+  -Layout
+  -"personality"
+  -Typography, colors, icons, etc.
+
+UX- User experience is the experience overall experience the user has while interacting with the product. 
+  -Does the app feel logical and well thought out? 
+  -Does the navigation work intuitevely?
+  -Are users reaching their goals? 
+
+UX design-> ux design is what makes the interface useful and functional
+UI design-> ui design is what makes an interface beautiful
+(both make completely different experiences for the user)
+
+UX design guilding principle: goals
+-Exists for a reason, the user has a goal visiting.
+
+Practial guidelines: 
+-Dont design complicated layouts. Dont reinvent the wheel. Use patterns that users know.
+-Make your call-to-action- the most prominent element, and make the text descriptive.
+-Use blue text and underlined text onl for links.
+-Animations should have a purpose and be fast: between 200 and 500 miliseconds
+-In forms, align labels and fields in a single verticle line, to make the form easier to scan.
+-Offer users good feedback for all actions: form errors. form success etc.
+-Law of locality: Place action buttons where they will create an effect.(for web apps)
+
+
+UX rules for website content:
+-Use a descriptive, keyword-focused headline on your main page. Dont be vague or fancy!
+-Only include relevant information, efficiently. Cut out fluff and make the content 100% clear.
+-Use simple words! Avoid technical jargon and smart-sounding words.
+-Break up long text with sub-headings, images, block quotes, bullet points, etc.
+
+
+Website-personalities-framework:
+
+How do you want the website to appear to users? What vibe do you want to transmit?
+-Choose one of the website personalities and apply to it. 
+*more info in the local pdf*

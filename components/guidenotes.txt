@@ -1,0 +1,31 @@
+Continuation from guidenotes from Design folder.
+
+From elements to webpage.
+
+basic progression:
+Elements->Components->(patterns of)Layouts ->webpage
+
+Use common elements and components to convey your website's information.
+Combine components into layouts using common layout patterns
+Assemble different layouts areas into a complete final page.
+
+Most common elements: 
+-Text, Buttons, Images, Input elements, Tags
+
+Most common components:
+Breadcrumbs, Pagination, Alert and status bars, Statistics, Gallery, Feature Box,
+Preview and profile cards, Accordion, Tabs, Carousel, Customer testimonials, Customer logos,
+Featured-in logos, steps, forms, tables, pricing tables, modal windows. And a lot more.
+
+Common components:
+Navigation,
+Hero section
+Footer
+Call-to-action section
+Feature row
+
+Layout patterns:
+Row of boxes or cards, Grid of boxes or cards
+Z-pattern, F-pattern, Single-column, Sidebar,
+Multi-column/magazine, Asymmetry/Experimental
+

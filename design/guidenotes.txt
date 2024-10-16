@@ -311,3 +311,6 @@ Website-personalities-framework:
 How do you want the website to appear to users? What vibe do you want to transmit?
 -Choose one of the website personalities and apply to it. 
 *more info in the local pdf*
+
+
+Continuation in guidenotes in Components folder.

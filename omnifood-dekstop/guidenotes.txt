@@ -1,0 +1,76 @@
+Prorocess behind building a website:
+1.Define
+2.Plan
+3.Sketch
+4.Design and building
+5.Test and optimize
+6.Launch
+7.Maintain and update
+
+1.Define the project: 
+Define WHO the website is for. Is it for yourself? For a client of your agency or your freelancing business?
+Define WHAT is the website for. In order words, define business and user goals of your website project.
+Define a target audience. Be really specific if possible and if it makes sense for your website.
+
+2.Plan the project: 
+Plan and gather website content: copy(text), images, videos etc.
+Content is usually provided by the client, but you can help them produce and find some content. (simply finding free images is easiers, but if they want copy, charge them extra)
+For bigger websites, plan out sitemap: what pages site needs, and how they are related to one another
+Based on the content, plan what sections each page needs in order to convey the content's message and in which order.
+Define the website personality(web design section)
+
+3.Sketch layout and component ideas.
+Think about what components you need and how you can use them in layout patterns.
+Ger ideas out of your head(sketch with pen and paper or Figma)
+This is iterative process; experient ith different components and layouts, until you arrive at a first good solution.
+You dont need to sketch everything, and dont't make it perfect. At some point you can jump in html and css
+
+4.Design and build website
+Use decisions, content and sketches from step-1-23- to design and build website with html and css.
+You already have the layout and components that you selected you need to design the actual visual styles
+Create the design based on the selected website personality, the design guidelines  and inspiration.
+Ue the client's branding for design decisions whenever possible, colors, typography, icons.
+
+5.Test and optimize
+Make sure the website works in all major browsers
+Test the website on actual mobile devices, not in just DevTools
+Optimize all image in terms of dimensions and file size
+Fix simple accessibility problems(color contrast)
+Run Lighthouse(perfomance test in DevTools and try to fix reported issues)
+Think about Serch Engine optimization(SEO)
+
+6.Launch the masterpiece
+Once all work is done, everything is perfect after the approval of client, upload it to hosting platform , buy domain name.
+
+7.Maitain and keep updating website.
+Keep website content updated over time(possible reccurring revenue)
+Install analytics software(google analytics) to get statics to infrom future changes
+A blog that is updated regularly is a good way to keep users coming back as well for SEO.
+
+
+ -------------OMNIFOOD----------------------
+ 1.Define:
+ Who? Client.
+ What?: Business goal-selling monthly food subscription
+        User goal-> eating well effortlessly, without spending a lot of time and money.
+Target audience:
+Busy people who like technology, are interested in a healthy diet and have well-paying job.
+
+2.PLan the project
+Provided with content.
+-Plan out sitemap: One-page marketing website(landing page, no need for sitemap)
+Website personality: startup/upbear + elements of calm/peaceful(consumer wellbeing)
+Planning based on the content. The content GUIDES the sections and layout
+
+########
+
+## sections
+-Logo + Navigation
+-Hero
+-Featured in 
+-How it works
+-Meals_ AND list of diets
+-Testimonials + gallery
+-Pricing + features
+-CTA (call to action)
+-Footer

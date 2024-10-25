@@ -74,3 +74,45 @@ Planning based on the content. The content GUIDES the sections and layout
 -Pricing + features
 -CTA (call to action)
 -Footer
+
+####
+
+Responsive Web Design- 
+Essentially is a design technique to make webpage adjust its layout and visual style to any possible screen size
+(window or viewport size)
+
+In practice this practice website usable on all devices. Its not a separate technology, its set 
+of best practices and technique of CSS. 
+Four parts: 
+1-Fluid Layouts: 
+
+To allow webpage to adapt to the current viewport width( or even height)
+Use % (or vh vw ) unit instead of px for elements that should adapt to viewport(usually layout)
+Use max-width instead of width. 
+
+2- Responsive units
+
+Use rem unit instead of px for most lengths
+To make it easy to scale the entire layout down or up automatically
+Helpful- trick: setting 1 rem to 10px for easy calculations
+
+3- Flexible images
+By default, image don't scale automatically as we change the viewport, so we need to fix that
+Always use % for image dimensions, together with the max-width property
+
+4-Media queries
+Bring responsive sites to life
+To change CSS styles on certain viewport widths(called breakpoints)
+
+2 different strategies for making web-design 
+
+Dekstop first vs mobile-first development
+
+Desktop first: 
+-Start writing CSS for dekstop: Large screen
+-Then media queries shrink design into smaller screens
+
+Mobile first: 
+-Start with css for small screens
+-Then media queries expand to large screen 
+-Forces us to reduce website and apps to absolute essentials

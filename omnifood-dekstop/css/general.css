@@ -152,7 +152,8 @@ body {
 
   /* it will give us the animation between the transition of 2 properties 
   ALWAYS PUT ON THE ORIGINAL "STATE" */
-  transition: background-color 0.3s;
+  /* transition: background-color 0.3s; */
+  transition: all 0.3s;
 }
 
 .btn--full:link,
@@ -184,7 +185,39 @@ body {
   box-shadow: inset 0 0 0 3px #fff;
 }
 
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #e67e22;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  /* currentcolor keyword- will use the colr that we placed */
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: #cf711f;
+  border-bottom: 1px solid transparent;
+  /* to use transparent keyword in order not to jump 1pixel */
+}
+
 /* helper class to the button  */
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+/* helper class for 1 of the columns */
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+.center-text {
+  text-align: center;
+}
+
+/* making strong element selector for customization */
+strong {
+  font-weight: 500;
 }

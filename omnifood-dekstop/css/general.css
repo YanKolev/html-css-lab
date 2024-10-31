@@ -154,6 +154,7 @@ body {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -164,6 +165,11 @@ body {
   font-size: 2rem;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
+
+  /* only necessary for .btn */
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
 
   /* it will give us the animation between the transition of 2 properties 
   ALWAYS PUT ON THE ORIGINAL "STATE" */
@@ -183,6 +189,18 @@ body {
   display: flex;
   align-items: center;
   gap: 1.6rem;
+}
+
+/* Accessibility styling  */
+
+*:focus {
+  outline: none;
+  /* if we set the outline focus to none it will be accessibility nightmare */
+  /* outline: 4px dotted #e67e22;
+  outline-offset: 8px; 
+  Above it was a variation of the accessibility */
+
+  box-shadow: 0 0 0 0.8rem rgba(230, 125, 34, 0.471);
 }
 
 .list-icon {
@@ -218,6 +236,18 @@ body {
    it will be added on the inside and the layout
     will not jump when u hover the button*/
   box-shadow: inset 0 0 0 3px #fff;
+}
+
+.btn--form {
+  background-color: #45260a;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1.2rem;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: #555;
 }
 
 .link:link,

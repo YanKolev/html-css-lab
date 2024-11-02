@@ -116,3 +116,34 @@ Mobile first:
 -Start with css for small screens
 -Then media queries expand to large screen 
 -Forces us to reduce website and apps to absolute essentials
+
+
+Responsive web design
+How media queries work (with max-width)
+
+@media (max-width: 600px)-> cheqs  is if the current Viewport is 600px or not. 
+600px is the maximum width at which media query still applies.
+At 700px the code stops working. 
+Media queries are like tools that overwrite certain CSS properties at certain viewport width. 
+
+We can have multiple media queries: 
+@media(max-width:600px)
+@media(max-width:1200px) (covers the 600 and then on top 600 more)
+
+Ex. if there is a phone with viewport of 400px, CSS in BOTH media queries applies.
+-if there is conflicts- The one that appears last -APPLIES! 
+
+-If we have a tablet with max with of 1000px (only the 1200px applies)
+
+Breakpoints: 
+Breakpoint? 
+Breakpoint is the viewport width at which we want our design to change. 
+(the pixel values that we want to put in our media queries)
+- Best practice will be to be vase on screen width ranges 
+Phones: 300px >500px 
+Big Phones >600px-900px
+Tablets/small laptops0 > 900px-1100px
+Laptops/Desktops >1200px 
+
+Put breakpoints when the design looks weird without looking at device size. 
+Best used to set up  breakpoints like thata + phone sizes. 

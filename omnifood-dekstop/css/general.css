@@ -45,6 +45,7 @@ html {
   font-size: 62.5%;
   /* By using this technique we will respect user's
    prefrences if they increase/decrease the brouser font settings */
+  overflow-x: hidden;
 }
 
 body {
@@ -52,6 +53,10 @@ body {
   line-height: 1;
   font-weight: 400;
   color: #555;
+
+  /* only words if there is nothing absolutely postioned in 
+  relation to body */
+  overflow-x: hidden;
 }
 
 /*

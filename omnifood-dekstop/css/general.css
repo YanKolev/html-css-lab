@@ -46,6 +46,10 @@ html {
   /* By using this technique we will respect user's
    prefrences if they increase/decrease the brouser font settings */
   overflow-x: hidden;
+
+  /* animate scrolling behaviour for chrome and firefox
+  HOWEVER IT DOES NOT WORK ON SAFARI*/
+  scroll-behavior: smooth;
 }
 
 body {

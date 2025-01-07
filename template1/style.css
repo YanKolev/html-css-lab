@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --text-color: #1a1c28;
+  --link-color: #4a76ee;
+  --backgound-color: #eeeff1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Popins", sans-serif;
+  background-color: var(--backgound-color);
+}
+
+a {
+  color: var(--link-color);
+  text-decoration: none;
+}

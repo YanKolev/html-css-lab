@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -13,8 +14,8 @@
 
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
@@ -24,120 +25,155 @@
     <title>Portfolio</title>
   </head>
   <body>
-    <!-- Navbar -->
+    <!-- NAVBAR -->
     <nav>
       <div class="left">
         <a href="/">John Doe</a>
       </div>
+
       <div class="right">
-        <!-- external links to be opened in new tab -->
-        <a href="http://github.com" target="_blank" rel="noopener no-referrer"
-          ><i class="fa-brands fa-github"></i><span>Github</span></a
-        >
+        <a href="http://github.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
 
-        <a href="http://linkedin.com" target="_blank" rel="noopener no-referrer"
-          ><i class="fa-brands fa-linkedin"></i><span>Linkedin</span></a
-        >
+        <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
 
-        <a href="mailto:example@example.com"
-          ><i class="fa-brands fa-envelope"></i><span>Email</span></a
-        >
+        <a href="mailto:john@example.com">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
       </div>
     </nav>
 
     <main>
-      <!-- Section Hero -->
+      <!-- SECTION 1: Hero -->
       <section class="hero-section">
         <div class="text">
           <h2>Hi, I'm John 👋</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-            ipsam unde atque vitae molestias inventore tempora, voluptates
-            laboriosam reiciendis dolore sed eligendi ipsa dolorem itaque beatae
-            consequuntur accusamus necessitatibus ad ut iure quis corporis
-            harum. Consequatur cupiditate dignissimos expedita dolor eum
-            reiciendis ullam non, porro, repudiandae rem debitis molestiae illo.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ipsam
+            assumenda est perspiciatis labore quasi, iure dignissimos, libero,
+            omnis sint necessitatibus ad. Hic expedita eligendi tenetur quisquam
+            id quaerat alias cumque, autem voluptatem in iure ut laudantium
+            tempora cupiditate voluptate est nemo impedit, quidem iusto,
+            provident aperiam. Iste, repellat aperiam!
           </p>
+
           <div class="links">
             <a href="#skills">
               <i class="fa-solid fa-code"></i>
-              <span>Skills</span></a
-            >
+              <span>Skills</span>
+            </a>
 
             <a href="#testimony">
               <i class="fa-solid fa-pen"></i>
-              <span>Testimony</span></a
-            >
+              <span>Testimony</span>
+            </a>
 
             <a href="#contact">
               <i class="fa-solid fa-envelope"></i>
-              <span>Contact</span></a
-            >
+              <span>Contact</span>
+            </a>
           </div>
         </div>
+
         <div class="headshot">
           <img src="images/hero-headshot.webp" alt="john doe headshot" />
         </div>
       </section>
 
-      <!-- Section Skills -->
-      <section id="skills" class="skills-section"">
+      <!-- SECTION 2: Skills -->
+      <section id="skills" class="skills-section">
         <h2>Skills</h2>
         <div class="text">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam vero
-          dolorum perferendis placeat vel laudantium fuga odit reprehenderit
-          similique consequuntur consequatur repellendus, sequi non quia ex,
-          error autem, facere vitae!
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates,
+          perspiciatis iure distinctio quidem aperiam necessitatibus omnis
+          possimus excepturi amet quos rerum? Perferendis repellat natus saepe
+          quaerat quibusdam neque recusandae optio?
         </div>
 
         <div class="cells">
           <div class="cell">
-            <img src="images/html-logo.webp" alt="html logo"/>
+            <img src="images/html-logo.webp" alt="html logo" />
             <span>HTML</span>
           </div>
 
           <div class="cell">
-            <img src="images/css-logo.webp" alt=" css logo"/>
+            <img src="images/css-logo.webp" alt="css logo" />
             <span>CSS</span>
           </div>
 
           <div class="cell">
-            <img src="images/javascript-logo.webp" alt="javascript logo"/>
+            <img src="images/javascript-logo.webp" alt="javascript logo" />
             <span>JavaScript</span>
           </div>
 
           <div class="cell">
-            <img src="images/node-logo.webp" alt="node logo"/>
+            <img src="images/node-logo.webp" alt="node logo" />
             <span>Node.js</span>
           </div>
 
           <div class="cell">
-            <img src="images/react-logo.webp" alt="react logo"/>
+            <img src="images/react-logo.webp" alt="react logo" />
             <span>React.js</span>
           </div>
         </div>
       </section>
 
-      <!-- Section Testimony -->
+      <!-- SECTION 3: Testimony -->
       <section id="testimony" class="testimony-section">
         <h2>Testimony</h2>
 
         <div class="group">
           <div class="person-details">
-            <img src="images/testimony-headshot.webp"/>
+            <img src="images/testimony-headshot.webp" />
             <p>John Doe</p>
             <p>Lorem ipsum dolor sit.</p>
           </div>
 
-          <div class="text">"Lorem ipsum dolor sit amet consectetur, adipisicing elit. At officiis quidem quia ut, dolores nemo repellat dolorum. Voluptatum voluptas laudantium autem tempore necessitatibus! Illum perspiciatis suscipit rerum explicabo voluptate in quae pariatur reiciendis? Minima, repellat, id dignissimos numquam quam natus sint accusantium similique iste odio in consectetur dolor inventore aut."</div>
-
+          <div class="text">
+            "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor,
+            sint repudiandae ratione exercitationem saepe distinctio cumque
+            quaerat nostrum laborum? Rem adipisci natus eos nemo reprehenderit,
+            cumque nostrum enim commodi. Eum, enim vero eveniet doloremque sed
+            veniam. Doloremque explicabo non reprehenderit expedita! Accusamus
+            mollitia repellendus dolorum officiis libero quod deleniti cum."
+          </div>
         </div>
-
-
       </section>
 
-      <!-- Section Contact -->
-      <section id="contact"></section>
+      <!-- SECTION 4: Contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+
+        <div class="group">
+          <div class="text">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat
+            fugit maiores atque architecto saepe tenetur quasi reiciendis illum
+            sint doloremque alias inventore, asperiores maxime pariatur totam
+            hic assumenda repudiandae, iusto quisquam nisi! Eaque doloremque
+            perspiciatis minus voluptate dicta. A ratione autem dolor iure
+            libero numquam voluptatem nobis laborum et corporis.
+          </div>
+
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
     </main>
   </body>
 </html>

@@ -133,14 +133,19 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-
   position: relative;
+  width: 32vw;
+  /* added vw here */
+  aspect-ratio: 1/1;
 }
 
 .home-img img {
   position: relative;
   top: 3rem;
-  width: 32vw;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  /* added- width, height and object fit- to maintain aspect ratio */
   border-radius: 50%;
   box-shadow: 0 0 25px var(--main-color);
   cursor: pointer;
@@ -242,20 +247,20 @@ span {
   position: absolute;
   width: calc(100% + 8px);
   height: 100%;
-  border-left: 3px solid var(--bg-color)
+  border-left: 3px solid var(--bg-color);
   right: -8px;
   animation: cursor 0.6s infinite, typing 20s steps(14) infinite;
 }
 
 @keyframes cursor {
   to {
-    border-left: 2px solid var(--main-color)
+    border-left: 2px solid var(--main-color);
   }
 }
 
 @keyframes words {
   0%,
-  20%{
+  20% {
     content: "Frontend Designer";
   }
   21%,
@@ -263,21 +268,21 @@ span {
     content: "Web Designer";
   }
   41%,
-  60%{
+  60% {
     content: "UI / UX Designer";
   }
   61%,
-  80%{
+  80% {
     content: "Web Developer";
   }
   81%,
   100% {
-    content: "Software Tester"
+    content: "Software Tester";
   }
 }
 
-@keyframes typing { 
-  10%, 
+@keyframes typing {
+  10%,
   15%,
   30%,
   35%,
@@ -286,7 +291,7 @@ span {
   70%,
   75%,
   90%,
-  95%{
+  95% {
     width: 0;
   }
   5%,
@@ -297,34 +302,32 @@ span {
   60%,
   65%,
   80%,
-  85%{
+  85% {
     width: calc(100% + 8px);
   }
 }
 
 .heading {
   font-size: 8rem;
-  text-align:center;
+  text-align: center;
   margin: 5rem 0;
-
 }
 
 .education {
   padding: 100px 15px;
   background: var(--second-bg-color);
-
 }
 
 .education h2 {
   margin-bottom: 5rem;
-
 }
 
 .timeline-items {
   max-width: 1200px;
-  margin:auto;
+  margin: auto;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
   position: relative;
 }
 
@@ -347,13 +350,19 @@ span {
   margin-bottom: 0;
 }
 
-.timeline-item:nth-child(odd){
-  padding-right: calc(50% + 30px);
-  text-align: right;
+.timeline-item:nth-child(odd) {
+  /* padding-right: calc(50% + 30px);
+  text-align: right; */
+
+  align-self: flex-end;
+  width: 50%;
 }
 
 .timeline-item:nth-child(even) {
-  padding-left: calc(50% +30px);
+  /* padding-left: calc(50% +30px); */
+
+  align-self: flex-start;
+  width: 50%;
 }
 
 .timeline-dot {
@@ -364,7 +373,7 @@ span {
   position: absolute;
   left: calc(50% - 8px);
   border-radius: 50%;
-  top:10px;
+  top: 10px;
 }
 
 .timeline-date {
@@ -384,10 +393,9 @@ span {
   transition: 0.3s ease-in-out;
 }
 
-.timeline-content::hover {
+.timeline-content:hover {
   transform: scale(1.05);
   box-shadow: 0 0 25px var(--main-color);
-
 }
 
 .timeline-content h3 {
@@ -404,16 +412,15 @@ span {
   line-height: 22px;
 }
 
-::-webkit-scrollbar{
+::-webkit-scrollbar {
   width: 15px;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: var(--main-color);
-
 }
 
-::-webkit-scrollbar-track{
+::-webkit-scrollbar-track {
   background-color: var(--bg-color);
   width: 50px;
 }
@@ -421,19 +428,18 @@ span {
 .services {
   background: var(--bg-color);
   color: black;
-
 }
 
 .services h2 {
   margin-bottom: 5rem;
-  color:white;
+  color: white;
 }
 
 .services-container {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
-  gap:2.5rem;
+  gap: 2.5rem;
 }
 
 .service-box {
@@ -452,22 +458,20 @@ span {
   transform: scale(1.03);
 }
 
-.service-box .service-info{
-display: flex;
-flex-direction: column;
-text-align: left;
-max-height: 200px;
-justify-content: left;
-align-items:baseline;
-padding: 5rem 5rem;
-
+.service-box .service-info {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-height: 200px;
+  justify-content: left;
+  align-items: baseline;
+  padding: 5rem 5rem;
 }
 
 .service-info h4 {
   font-weight: 800;
   font-size: 3rem;
   line-height: 2;
-
 }
 
 .service-info p {
@@ -475,7 +479,7 @@ padding: 5rem 5rem;
   font-weight: 600;
   max-height: 100px;
   line-height: 1.7;
-  margin:auto;
+  margin: auto;
 }
 
 .testimonials {
@@ -490,19 +494,19 @@ padding: 5rem 5rem;
   flex-direction: column;
 }
 
-.testimonials .heading{
+.testimonials .heading {
   margin-bottom: 5rem;
 }
 
-.testimonial-box img{
+.testimonial-box img {
   width: 15rem;
   border-radius: 50%;
-  border:3px solid var(--main-color);
+  border: 3px solid var(--main-color);
   box-shadow: 0 0 25px var(--main-color);
 }
 
 .wrapper {
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 3rem;
 }
@@ -510,7 +514,7 @@ padding: 5rem 5rem;
 .testimonial-item {
   min-height: 550px;
   max-width: 450px;
-  background:rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.7);
   border: 3px solid rgba(238, 238, 238, 0.2);
   border-radius: 2rem;
   margin: 0 2rem;
@@ -521,14 +525,23 @@ padding: 5rem 5rem;
   align-items: center;
   justify-content: center;
   text-align: center;
-  gap:1.5rem;
+  gap: 1.5rem;
   color: white;
   transition: 0.4s ease-in-out;
 }
 
-.testimonial-item:hover{
+.testimonial-item img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
   border: 3px solid var(--main-color);
-  transform: translateY(-10px)scale(1.03);
+  box-shadow: 0 0 25px var(--main-color);
+}
+
+.testimonial-item:hover {
+  border: 3px solid var(--main-color);
+  transform: translateY(-10px) scale(1.03);
   box-shadow: 0 0 50px var(--main-color);
 }
 
@@ -547,7 +560,6 @@ padding: 5rem 5rem;
 
 .contact {
   background-color: var(--bg-color);
-
 }
 
 .contact h2 {
@@ -570,13 +582,13 @@ padding: 5rem 5rem;
   flex-wrap: wrap;
 }
 
-.contact form .input-box input, 
+.contact form .input-box input,
 .contact form textarea {
   width: 100%;
   padding: 2.5rem;
   font-size: 1.8rem;
   color: var(--text-color);
-  background:var(--second-bg-color);
+  background: var(--second-bg-color);
   border-radius: 2rem;
   border: 2px solid var(--main-color);
   margin: 1.5rem 0;
@@ -609,22 +621,22 @@ padding: 5rem 5rem;
   height: 42px;
   line-height: 42px;
   display: inline-block;
-  text-align:center;
+  text-align: center;
   border-radius: 50%;
   margin: 0 10px;
   transition: 0.3s ease-in-out;
 }
 
 .footer .social a:hover {
-  transform: scale(1.2)translateY(-10px);
+  transform: scale(1.2) translateY(-10px);
   background-color: var(--main-color);
   color: black;
   box-shadow: 0 0 25px var(--main-color);
 }
 
 .footer ul {
-  margin-top:0;
-  margin-bottom:0;
+  margin-top: 0;
+  margin-bottom: 0;
   padding: 0;
   font-size: 18px;
   line-height: 1.6;
@@ -649,51 +661,51 @@ padding: 5rem 5rem;
 .footer .copyright {
   margin-top: 50px;
   text-align: center;
-  font-size: 16px ;
+  font-size: 16px;
   color: white;
 }
 
-@media(max-width:1285px){
+@media (max-width: 1285px) {
   html {
-    font-size:55%;
+    font-size: 55%;
   }
-  .services-container{
+  .services-container {
     padding-bottom: 7rem;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 5rem;
   }
 }
 
-@media(max-width: 991px){
-  header{
+@media (max-width: 991px) {
+  header {
     padding: 2rem 3%;
   }
   section {
     padding: 10rem 3% 2rem;
   }
-  .timeline-items::before{
+  .timeline-items::before {
     left: 7px;
   }
 
-  .timeline-item:nth-child(odd){
+  .timeline-item:nth-child(odd) {
     padding-right: 0;
     text-align: left;
   }
 
   .timeline-item:nth-child(odd),
-  .timeline-item:nth-child(even){
+  .timeline-item:nth-child(even) {
     padding-left: 37px;
   }
 
-  .timeline-dot{
-    left:0;
+  .timeline-dot {
+    left: 0;
   }
-  .services{
+  .services {
     padding-bottom: 7rem;
   }
 
   .testimonials .wrapper {
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
   .contact form {
     flex-direction: column;
@@ -703,14 +715,14 @@ padding: 5rem 5rem;
   }
 }
 
-@media(max-width:895px) {
+@media (max-width: 895px) {
   #menu-icon {
     display: block;
   }
 
   .navbar {
     position: absolute;
-    top:100%;
+    top: 100%;
     right: 0;
     width: 50%;
     padding: 1rem 3%;
@@ -732,22 +744,21 @@ padding: 5rem 5rem;
   }
   .home {
     flex-direction: column-reverse;
-    margin:  5rem 4rem;
+    margin: 5rem 4rem;
   }
   .home-content h3 {
     font-size: 2.6rem;
   }
-  .home-content h1{
+  .home-content h1 {
     font-size: 8rem;
     margin-top: 3rem;
   }
   .home-content p {
     max-width: 600px;
-    margin:  0 auto;
+    margin: 0 auto;
   }
   .home-img img {
     width: 56vw;
-
   }
   .services h2 {
     margin-bottom: 3rem;

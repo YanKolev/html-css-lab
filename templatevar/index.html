@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio2</title>
+    <title>Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,11 +17,11 @@
       rel="stylesheet"
     />
 
-    <link rel="stylesheet" href="styletest.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header class="header">
-      <a href="#home" class="logo">Amelia <span>Morgan</span></a>
+      <a href=" #home" class="logo"> Amelia <span> Morgan </span></a>
 
       <i class="bx bx-menu" id="menu-icon"></i>
 
@@ -138,7 +138,7 @@
 
         <div class="service-box">
           <div class="service-info">
-            <h4>Frontend Development</h4>
+            <h4>Frontend Develipment</h4>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem
               error, deserunt, nostrum doloribus eius facilis dolore vitae
@@ -180,10 +180,7 @@
 
         <div class="wrapper">
           <div class="testimonial-item">
-            <img
-              src="imageswebp/testimonial1.webp"
-              alt="Testimonial by Marylyn"
-            />
+            <img src="imageswebp/testimonial1.webp"/ alt="">
             <h2>Marylyn</h2>
             <div class="rating">
               <i class="bx bxs-star" id="star"></i>
@@ -200,10 +197,7 @@
           </div>
 
           <div class="testimonial-item">
-            <img
-              src="imageswebp/testimonial2.webp"
-              alt="Testimonial by Julia"
-            />
+            <img src="imageswebp/testimonial2.webp"/ alt="">
             <h2>Julia</h2>
             <div class="rating">
               <i class="bx bxs-star" id="star"></i>
@@ -221,10 +215,7 @@
           </div>
 
           <div class="testimonial-item">
-            <img
-              src="imageswebp/testimonial3.webp"
-              alt="Testimonial by Sarah"
-            />
+            <img src="imageswebp/testimonial3.webp"/ alt="">
             <h2>Sarah</h2>
             <div class="rating">
               <i class="bx bxs-star" id="star"></i>
@@ -247,28 +238,27 @@
     <section class="contact" id="contact">
       <h2 class="heading">Contact <span>Me</span></h2>
 
-      <form action="#">
+      <form action="">
         <div class="input-group">
           <div class="input-box">
-            <input type="text" placeholder="Full Name" required />
-            <input type="email" placeholder="Email" required />
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
           </div>
           <div class="input-box">
-            <input type="tel" placeholder="Phone number" required />
-            <input type="text" placeholder="Subject" required />
+            <input type="number" placeholder="Phone number" />
+            <input type="text" placeholder="Subject" />
           </div>
         </div>
 
         <div class="input-group-2">
           <textarea
-            name="message"
-            id="message"
+            name=""
+            id=""
             cols="30"
             rows="10"
             placeholder="Your Message"
-            required
           ></textarea>
-          <button type="submit" class="btn">Send Message</button>
+          <input type="submit" value="Send Message" class="btn" />
         </div>
       </form>
     </section>
@@ -282,11 +272,25 @@
       </div>
 
       <ul class="list">
-        <li><a href="#">FAQ</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">About Me</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Testimonials</a></li>
+        <li>
+          <a href="#">FAQ</a>
+        </li>
+
+        <li>
+          <a href="#">Services</a>
+        </li>
+
+        <li>
+          <a href="#">About Me</a>
+        </li>
+
+        <li>
+          <a href="#">Contact</a>
+        </li>
+
+        <li>
+          <a href="#">Testimonials</a>
+        </li>
       </ul>
       <p class="copyright">&copy; Amelia Morgan | All Rights Reserved</p>
     </footer>

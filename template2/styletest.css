@@ -480,7 +480,7 @@ span {
   max-height: 200px;
   justify-content: left;
   align-items: baseline;
-  padding: 5rem 5rem;
+  padding: 2rem 5rem 5rem 5rem;
 }
 
 .service-info h4 {
@@ -863,6 +863,7 @@ span {
 
   .timeline-dot {
     left: 0;
+    margin-left: 7px;
   }
 
   .timeline-date {
@@ -955,6 +956,7 @@ span {
 
   .service-box .service-info {
     padding: 3rem;
+    /* padding: 2rem 5rem 5rem 5rem; */
   }
 
   .testimonial-item {
@@ -996,6 +998,11 @@ span {
 
   .timeline-content {
     padding: 2rem;
+  }
+
+  .timeline-dot {
+    left: 0;
+    margin-left: 7px;
   }
 
   .service-box {
